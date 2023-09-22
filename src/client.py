@@ -63,6 +63,6 @@ class WegowClient(RequestsClient):
         response = self._perform_request(endpoint)
         return response.venues
 
-    def get_media(self, event_id: int | str) :
+    def get_media(self, event_id: int | str):
         endpoint = MediaEndpoint(MediaEndpointParams(event=event_id))
         return self._perform_request(endpoint)

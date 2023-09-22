@@ -36,8 +36,6 @@ class RetrieveEvent(RequestsEndpoint):
         return self.url.format(event_id=self.event_id)
 
 
-
-
 class RetrieveVenue(RequestsEndpoint):
     method = Methods.GET
     url = "https://www.wegow.com/api/venues/{venue_id}/"
