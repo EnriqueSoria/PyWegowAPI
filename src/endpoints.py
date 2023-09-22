@@ -44,9 +44,8 @@ class RetrieveVenue(RequestsEndpoint):
     data = None
     parser = DataclassParser(FullVenue)
 
-    def __init__(self, *args, venue_id: int | str, **kwargs):
+    def __init__(self, venue_id: int | str):
         self.venue_id = venue_id
-        super().__init__(*args, **kwargs)
 
     def get_url(self) -> str:
         return self.url.format(venue_id=self.venue_id)
@@ -58,9 +57,8 @@ class RetrieveArtist(RequestsEndpoint):
     data = None
     parser = DataclassParser(FullArtist)
 
-    def __init__(self, *args, artist_id: int | str, **kwargs):
+    def __init__(self, artist_id: int | str):
         self.artist_id = artist_id
-        super().__init__(*args, **kwargs)
 
     def get_url(self) -> str:
         return self.url.format(artist_id=self.artist_id)
