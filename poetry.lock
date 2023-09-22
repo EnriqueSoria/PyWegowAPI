@@ -14,7 +14,7 @@ requests = "^2.31"
 type = "git"
 url = "https://github.com/EnriqueSoria/python-api-consumer"
 reference = "HEAD"
-resolved_reference = "a608378faca852fa62ff4fde2562a14efbe1f4c9"
+resolved_reference = "1adcde405b890598d63aefa99f43a75a7fe1421c"
 
 [[package]]
 name = "certifi"
