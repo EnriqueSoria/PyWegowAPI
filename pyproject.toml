@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pywegowapi"
+version = "0.1.0"
+description = "A client for the public, undocumented, Wegow API"
+authors = ["Enrique Soria <me@enriquesoria.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+api-consumer = {git = "https://github.com/EnriqueSoria/python-api-consumer"}
+dacite = "^1.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
