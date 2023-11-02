@@ -1,7 +1,7 @@
 from typing import Iterator
 
 import requests
-from api_consumer.requests import RequestsClient
+from api_client_framework.requests import RequestsClient
 
 from endpoints import EventFeedEndpoint
 from endpoints import MediaEndpoint

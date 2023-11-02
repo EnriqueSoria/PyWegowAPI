@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-api-consumer = {git = "https://github.com/EnriqueSoria/python-api-consumer"}
 dacite = "^1.8.1"
+api-client-framework = "^0.1.0"
 
 
 [build-system]

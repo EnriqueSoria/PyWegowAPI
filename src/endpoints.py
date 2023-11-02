@@ -1,5 +1,5 @@
-from api_consumer.methods import Methods
-from api_consumer.requests import RequestsEndpoint
+from api_client_framework.methods import Methods
+from api_client_framework.requests import RequestsEndpoint
 
 from models.artist import ArtistSearchResponse
 from models.common import SearchParams
